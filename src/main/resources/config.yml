@@ -1,0 +1,17 @@
+# TotemTweak Configuration
+# This file contains all configurable settings for the TotemTweak plugin
+
+# Totem of Undying drop chance in stronghold chests (0.0 to 1.0)
+# 0.0 = 0% chance, 1.0 = 100% chance
+totem-drop-chance: 0.3
+
+# Whether to prevent totem of undying drops from other sources
+# Set to false to allow normal totem drops
+prevent-other-drops: true
+
+# Debug mode - enables additional console logging
+debug: false
+
+# Enable bStats metrics collection (anonymously collects plugin usage data)
+# You can view the collected data at: https://bstats.org/plugin/bukkit/TotemTweak/26799
+bstats-enabled: true 
