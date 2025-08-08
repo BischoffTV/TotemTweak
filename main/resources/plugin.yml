@@ -1,0 +1,21 @@
+name: TotemTweak
+version: '1.0.1'
+main: org.bischofftv.totemTweak.TotemTweak
+api-version: '1.21'
+description: 'Prevents totem of undying drops from entities and adds them to stronghold chests instead with configurable chances. Perfect for servers that want to make totems more exclusive and encourage exploration of strongholds. Features include drop prevention, configurable spawn rates, debug mode, and bStats integration.'
+author: 'BischoffTV'
+website: 'https://github.com/BischoffTV/TotemTweak'
+
+commands:
+  totemtweak:
+    description: 'Main command for TotemTweak plugin'
+    usage: '/totemtweak <reload|help>'
+    aliases: [tt]
+
+permissions:
+  totemtweak.admin:
+    description: 'Allows access to all TotemTweak commands'
+    default: op
+  totemtweak.reload:
+    description: 'Allows reloading the plugin configuration'
+    default: op

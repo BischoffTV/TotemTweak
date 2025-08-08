@@ -1,0 +1,27 @@
+# TotemTweak Messages Configuration
+# All messages are in English for international use
+
+# Plugin messages
+plugin:
+  reload:
+    success: "&aTotemTweak has been reloaded successfully!"
+    error: "&cAn error occurred while reloading TotemTweak. Check console for details."
+  
+  no-permission: "&cYou don't have permission to use this command!"
+  
+  help:
+    title: "&6=== TotemTweak Help ==="
+    reload: "&e/totemtweak reload &7- Reload the plugin configuration"
+    help: "&e/totemtweak help &7- Show this help message"
+
+# Console messages
+console:
+  enabled: "&aTotemTweak has been enabled!"
+  disabled: "&cTotemTweak has been disabled!"
+  reload: "&aTotemTweak configuration reloaded!"
+  totem-prevented: "&ePrevented totem of undying drop from: {source}"
+  totem-added: "&aAdded totem of undying to stronghold chest at: {location}"
+  totem-stacked: "&bTotem of undying stacked: {amount} items"
+  bstats-enabled: "&abStats metrics enabled. View data at: https://bstats.org/plugin/bukkit/TotemTweak/26799"
+  bstats-disabled: "&ebStats metrics disabled by configuration."
+  bstats-error: "&cFailed to initialize bStats: {error}" 

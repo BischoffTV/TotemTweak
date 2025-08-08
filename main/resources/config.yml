@@ -1,0 +1,71 @@
+# TotemTweak Configuration
+# This file contains all configurable settings for the TotemTweak plugin
+
+# Totem of Undying drop chance in stronghold chests (0.0 to 1.0)
+# 0.0 = 0% chance, 1.0 = 100% chance
+totem-drop-chance: 0.3
+
+# Totem stacking settings
+totem-stacking:
+  # Whether totems can be stacked (false = vanilla behavior, true = allow stacking)
+  enabled: false
+  
+  # Maximum stack size for totems (1-64, default 16)
+  max-stack-size: 16
+
+# Update checker settings
+update-checker:
+  enabled: true
+
+# Individual drop prevention settings
+# Set to false to allow totem drops from specific sources
+drop-prevention:
+  # Entity death drops (evokers, raids, etc.)
+  entity-death: true
+  
+  # Entity drop item events (when entities drop items)
+  entity-drop: true
+  
+  # Player death drops (when players die with totems)
+  player-death: true
+  
+  # Player drop item events (when players drop items)
+  player-drop: true
+  
+  # Minecart destruction (when minecarts are destroyed)
+  minecart-destruction: true
+  
+  # Chest destruction (when chests are broken)
+  chest-destruction: true
+  
+  # Hopper destruction (when hoppers are broken)
+  hopper-destruction: true
+  
+  # Dispenser destruction (when dispensers are broken)
+  dispenser-destruction: true
+  
+  # Dropper destruction (when droppers are broken)
+  dropper-destruction: true
+  
+  # Barrel destruction (when barrels are broken)
+  barrel-destruction: true
+  
+  # Block break events (general block destruction)
+  block-break: true
+  
+  # Explosion events (when blocks are destroyed by explosions)
+  explosion: true
+  
+  # Piston events (when blocks are moved by pistons)
+  piston: true
+
+# Legacy setting - if true, prevents ALL totem drops regardless of individual settings above
+# This is kept for backward compatibility
+prevent-other-drops: false
+
+# Debug mode - enables additional console logging
+debug: false
+
+# Enable bStats metrics collection (anonymously collects plugin usage data)
+# You can view the collected data at: https://bstats.org/plugin/bukkit/TotemTweak/26799
+bstats-enabled: true 
